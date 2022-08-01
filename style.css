@@ -119,7 +119,7 @@ header a{
 #home
 {
     height: 500px;
-    background-image: url(imagens/img1.jpg);
+    background-image: url(Imagens/img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -135,7 +135,7 @@ header a{
 
 .certificados
 {
-    background-image: url(imagens/git.gif);
+    background-image: url(Imagens/git.gif);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
