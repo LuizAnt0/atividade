@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="perfil.png" alt="logo" class="perfil">
+            <nav>
+                <ul>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#certificados">CERTIFICADOS</a></li>
+                    <li><a href="#contatos">CONTATOS</a></li>
+                    <li>
+                        <div class="botao">
+                           <a href="" download="CV">DOWNLOAD CV</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="" id="home">
+            <div class="index1">
+                <div class="name">
+                    <h1>Luiz Antonio</h1>
+                    <h2>FrontEnd Developer</h2>
+                </div>
+                <div class="home">
+                    <div class="botao">
+                        <p>Download CV</p>
+                    </div>
+                    <div class="botao">
+                        <p>Contatos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="" id="sobre">
+            <h1>Sobre</h1>
+            <p>Hoje, estudante de Sistemas de Infomação e Tecnico em Infomática formado pele IFNMG - Campus Pirapora, atualmente estou estudando o desenvolvimento front-end da web é o desenvolvimento da interface gráfica do usuário de um site, por meio do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com aquele site.</p>
+            <br><br>
+        </section>
+        <section class="" id="skills">
+            <h1>Skills</h1>
+            <div class="row">
+                <div class="skill">
+                    <img src="imagens/html-5.png" alt="icone_html" class="small_img">
+                    <div>
+                        <h2>HTML</h2>
+                        <progress class="barra_exp" value="50" max="100">70 %</progress>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="imagens/js.png" alt="icone_javascript" class="small_img">
+                    <div>
+                        <h2>JAVASCRIPT</h2>
+                        <progress class="barra_exp" value="20" max="100">70 %</progress>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="skill">
+                    <img src="imagens/css-3.png" alt="icone_css" class="small_img">
+                    <div>
+                        <h2>CSS</h2>
+                        <progress class="barra_exp" value="30" max="100">70 %</progress>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="imagens/py.png" alt="icone_py" class="small_img">
+                    <div>
+                        <h2>PYTHON</h2>
+                        <progress class="barra_exp" value="5s0" max="100">70 %</progress>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="certificados" id="certificados">
+            <div class="carrossel">
+                <h1>Certificados</h1>
+                <div class="container" id="img">
+                    <div class="car_cert">
+                        <img src="imagens/car_1.jpg" alt="cert_1" class="img_car_cert">
+                    </div>
+                    <div class="car_cert first">
+                        <img src="imagens/car_2.jpg" alt="cert_2" class="img_car_cert">
+                    </div>
+                    <div class="car_cert">
+                        <img src="imagens/car_3.jpg" alt="cert_3" class="img_car_cert">
+                    </div>
+                    <div class="car_cert">
+                        <img src="imagens/car_4.jpg" alt="cert_4" class="img_car_cert">
+                    </div>
+                    <div class="car_cert">
+                        <img src="imagens/car_5.jpg" alt="cert_5" class="img_car_cert">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="" id="projetos">
+
+        </section>
+        <section class="contat" id="contatos">
+            <h1>Contatos</h1>
+            <form action="Enviar um email"></form>
+            <div class="ahfbsha">
+                <label for="name">Nome:</label>
+                <input type="text" name="nome" class="inp" id="name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" class="inp" id="email">
+            </div>
+            <div class>
+                <label for="name">Mensagem:</label>
+                <textarea name="message" class="inp -msg" id="message" cols="30" rows="10"></textarea>
+            </div>
+
+                <input class="btn_f -submit" type="submit" value="Enviar">
+        </section>
+        <footer>
+            <br><br>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="Imagens/facebook.png" class="perfil"></a>
+            <a href="https://www.instagram.com/"><img src="Imagens/instagram.png" class="perfil"></a>
+            <a href="https://twitter.com"> <img src="Imagens/twitter.png" class="perfil"></a>
+            <a href="https://twitter.com"> <img src="Imagens/linkedin.png" class="perfil"></a>
+        </div>
+        <br>
+        <div class="text">
+            <p> 2022 &copy; Luiz Antonio</p>
+            <p>Endereço: Av. Humberto Mallard, 1355 - Santos Dumont, Pirapora - MG, 39270-000</p>
+            <p>Telefone: (38) 9 9150-6800</p>
+        </div>
+        <br>
+    </footer>
+    </main>
+    <script src="carrossel.js"></script>
+</body>
+</html>

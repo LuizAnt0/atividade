@@ -1,0 +1,247 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul
+{
+    list-style: none;
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 50PX;
+    color: white;
+}
+button
+{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    background-color: black;
+}
+header a{
+    font-family: "roboto";
+    font-size: 20px;
+    color: white;
+}
+
+.botao
+{
+    background-color: red;
+    list-style: none;
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 2px 2px 0px cyan;
+    margin-left: 5px;
+    height: 35px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sobre
+{
+    background-color: rgb(42, 41, 41);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name
+{
+    text-align: center;
+    color: white;
+}
+
+#skills
+{
+    background-color: rgb(42, 41, 41);
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skill
+{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.skill img
+{
+    width: 80%;
+    height: 80%;
+    max-width: 90px;
+    max-height: 100px;
+    margin: 25px;;
+}
+
+.small_img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.perfil
+{
+    height: 70px;
+}
+
+#home
+{
+    height: 500px;
+    background-image: url(imagens/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home
+{
+    display: flex;
+    gap: 100px;
+    margin: 70px;
+    justify-content: center;
+}
+
+.certificados
+{
+    background-image: url(imagens/git.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.certificados h1
+{
+    color: black;
+}
+
+.carrossel
+{
+    width: 80%;
+    max-width: 680px;
+    overflow: hidden;
+}
+
+.container
+{
+    width: 700%;
+    display: flex;
+    transition: 1s ease-out;
+    margin-bottom: 40px;
+}
+
+.car_cert
+{
+    height: 492px;
+    width: 690px;
+}
+
+.img_car_cert
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.contat
+{
+    background-color: rgb(42, 41, 41);
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: "roboto";
+    color: white;
+    padding: 4% 2%
+}
+.inp{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+}
+
+.inp.-msg
+{
+    height: 200px;
+}
+
+.btn_f.-submit
+{
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.btn_f
+{
+    display: inline-block;
+    font-size: 25px;
+    background-color: red;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: transform 100ms linear;
+    text-decoration: none;
+    color: #F2E9E1;
+    cursor: pointer;
+
+}
+
+footer
+{
+    background-color: black;
+}
+.social
+{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text
+{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
